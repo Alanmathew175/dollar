@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar
+{
+    background-color: #131313;
+    padding:  8rem;
+    z-index: 10;
+
+}
+#navbar-brand
+{
+    font-size: 1.4rem;
+    font-weight: 700;
+    
+}
+.navbar.navbar-dark .navbar-nav .nav-link {
+    color:#fff;
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+}
+.navbar.navbar-dark .navbar-nav .nav-link:hover 
+{
+    color: #00bf85;
+}
+#navbarSupportedContent .btn
+{
+    font-weight: 600;
+    background-color: #00bf85;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+}
+.firstsection
+{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.firstsection video
+{
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.notes
+{
+    position: relative;
+}
+.firstsection .notes p
+{
+    width: 50%;
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+}
+#button2
+{font-weight: 600;
+    background-color: #00bf85;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+   
+                                                                                                   
+}
+#button2:hover
+{
+    background: #fff;
+}
+.about
+{
+    background-color: #000;
+}
+.text a
+{    
+    font-weight: 600;
+    background-color: #00bf85;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #111;
+}
+.about .text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+ .text h6
+{
+   color: #00bf7f;
+   font-weight: 800;
+   font-size: 1rem;
+   letter-spacing: 2px;
+
+}
+.about .text h2
+{
+   color: #f7f5f4;
+   font-weight: 700;
+   font-size: 2.7rem;
+}
+.about .text p
+{
+   color: #f7f5f4;
+   font-weight: 400;
+   font-size: 1.1rem;
+   letter-spacing: 0.5px;
+}
+#discovery
+{
+    background-color: #fff;
+}.discovery .text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+ .text h6
+
+.discovery .text h2
+{
+   color: #f7f5f4;
+   font-weight: 700;
+   font-size: 2.7rem;
+}
+.discovery .text p
+{
+   color: #111;
+   font-weight: 400;
+   font-size: 1.1rem;
+   letter-spacing: 0.5px;
+}
+.discovery .text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.discovery .text h6
+{
+   color: #00bf7f;
+   font-weight: 800;
+   font-size: 1rem;
+   letter-spacing: 2px;
+
+}
+.discovery .text h2
+{
+   color: #111;
+   font-weight: 700;
+   font-size: 2.7rem;
+}
+.service
+{
+    background-color: #000;
+
+}
+.service .row .one
+{
+    background:#fff ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:2rem 2rem ;
+    text-align: center;
+    border-radius: 7px;
+
+}
+.sign-up .text h2
+{
+
+   font-weight: 700;
+   font-size: 2.7rem;
+}
+.sign-up .text p
+{
+
+   font-weight: 400;
+   font-size: 1.1rem;
+   letter-spacing: 0.5px;
+}
+.last-section a
+{
+  text-decoration: none;
+}
+
+
+
